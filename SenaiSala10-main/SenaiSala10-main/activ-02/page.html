@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#per1"> Diogo</a></li>
+            <li><a href="#per2"> Perf</a></li>
+            <li><a href="#tecn"> Tecnologias</a></li>
+            <li><a href="#conta"> Contato</a></li>
+        </ul>
+    </header>
+    <div class="p1" id="per1">
+        <div>
+            <div class="rel">
+                <img src="https://th.bing.com/th/id/R.e94860c29ac0062dfe773f10b3ce45bf?rik=SCqlsHg1S8oFDA&pid=ImgRaw&r=0" alt="img01" id="perfil" height="400" width="400">
+            </div>
+        </div>
+        <div>
+            <h1>Diogo Haschich</h1>
+            <p style="font-size: 20px;">Aluno de desenvolvimento de sistemas no SESI Senai.</p>
+        </div>
+    </div>
+    <div class="p2" id="per2">
+        <div>
+            <div class="rel1">
+                <img src="https://th.bing.com/th/id/R.e94860c29ac0062dfe773f10b3ce45bf?rik=SCqlsHg1S8oFDA&pid=ImgRaw&r=0" alt="" id="perfil" width="400" height="400">
+            </div>
+        </div>
+        <div>
+            <h1>Leonardo Siqueira</h1>
+            <p style="font-size: 20px;">Aluno de desenvolvimento de sistemas no SESI Senai.</p>
+        </div>
+    </div>
+    <div class="tec" id="tecn">
+        <h1>Tecnologia</h1>
+        <div class="logos">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="" width="" height="300">
+            </div>
+            <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="" width="" height="300">
+            </div>
+            <div class="logo">
+                 <img src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Logo.png" alt="" width="" height="300">
+            </div>
+           
+        </div>
+        <div class="sobre" id="sobre">
+            <div class="texto">
+                <p>HTML é uma linguagem de marcação de hipertexto utilizada na criação de documentos e páginas da web. Os marcadores, chamados de “tags”, servem para indicar a função de cada elemento na página, como textos, imagens e vídeos, além de suas conexões com outros elementos (links) e como eles serão interpretados pelo navegador?</p>
+            </div>
+            <div class="texto">
+                <p> CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site A relação entre HTML e CSS é bem forte. Como o HTML é uma linguagem de marcação (o alicerce de um site) e o CSS é focado no estilo (toda a estética de um site).</p>
+            </div>
+            <div class="texto">
+                <p>JavaScript (frequentemente abreviado como JS) é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma (protótipos, orientado a objeto, imperativo e funcional). É atualmente a principal linguagem para programação client-side em navegadores web. É também bastante utilizada do lado do servidor através de ambientes como o node.js.</p>
+            </div>
+       </div>
+    </div>
+    <div class="cont" id="conta">
+        <div class="leftcontact">
+            <h2>Contato</h2>
+            <p>Aqui voce pode me mandar uma mensagem.</p>
+            <div class="campos">
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="Seu nome ..." id="nome">
+                <label for="email">email</label>
+                <input type="text" placeholder="Seu email ..." id="email">
+                <label for="contato">CPF</label>
+                <input type="number" placeholder="Seu CPF ..." id="contato">
+                <label for="area">Sua mensagem</label>
+                <textarea name="]" id="area" cols="30" rows="10" placeholder="Sua mensagem ..."></textarea>
+                <button id="buttofuncn" onclick="enviar()">Enviar</button>
+            </div>
+        </DIV>
+
+        <div class="rightcontact">
+            <div id="final">
+                <p>Nome: <span id="confNome"></span></p>
+                <p>Email: <span id="confEmail"></span></p>
+                <p>Cpf: <span id="confCpf"></span></p>
+                <p>Mensagem: <span id="confMsg"></span></p>
+            </div>
+            <button class="" onclick="envia()">Whatsapp</button>
+        </div>
+    </div>
+</body>
+</html>

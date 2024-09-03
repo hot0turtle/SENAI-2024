@@ -1,0 +1,53 @@
+body{
+   padding: 20px;
+   overflow-x: hidden;
+}
+.principal{
+    width:97% ;
+    height:auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.font-style{
+    border-bottom: 2px solid lightgray;
+    font-size: 3rem;
+    font-family: 'Single Day', cursive;
+    padding-bottom: 15px;
+}
+.font-style02{
+    font-size: 1.8rem;
+    color:darkgrey
+}
+
+.div-calculos{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 0%;
+    
+}
+
+.chipi{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 10px;
+    min-height: 300px;
+}
+
+
+
+.wrap-input-label{
+
+}
+
+
+button{
+background-color: rgb(202, 91, 110);
+border-radius: 8px;
+border: none;
+cursor: pointer;
+text-align: center;
+}
